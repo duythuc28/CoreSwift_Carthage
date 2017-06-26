@@ -1,0 +1,165 @@
+//Generated IOS file for locale : fr
+
+"language"="fr";
+
+//APPLICATION_GLOBAL
+"app_name"="Ubiq";
+"app_version"="1.0";
+
+//COMMON
+"common_bt_cancel"="Annuler";
+"common_bt_ok"="OK";
+"common_bt_retry"="Retry";
+"common_google_plus_name"="Google plus";
+"common_facebook_name"="Facebook";
+"common_request_success_title"="Succès ";
+"common_request_error_title"="Erreur ";
+"common_no_internet_connection_title"="Erreur de connexion ";
+"common_no_internet_connection"="Aucune connexion Internet ";
+"common_request_api_fail"="Erreur serveur ";
+"common_request_api_success"="Demande effectuée avec succès ";
+"common_post_api_success"="Post publié avec succès ";
+"common_post_api_unsuccess"="La publication a échoué";
+"common_upload_media_unsuccess"="Le téléchargement a échoué ";
+"common_upload_media_success"="Téléchargé avec succès ";
+"common_user_not_found"="Utilisateur introuvable";
+"common_user_already_requested"="Utilisateur déjà existant";
+"common_error_message"="Network error. Please try again later";
+
+//LOGIN_SCREEN
+"login_email"="Email ";
+"login_password"="Mot de passe ";
+"login_validate"="Identifiant ";
+"login_forgot_password"="Mot de passe oublié ? ";
+"login_error_title"="Erreur ";
+"login_error_message_email_invalid"="Adresse email invalide ";
+"login_error_message_password_invalid"="Entrez votre mot de passe";
+
+//LEFT_MENU_SCREEN
+"left_menu_section_publish"="Publish";
+"left_menu_section_converse"="Converse";
+"left_menu_section_analyze"="Analyze";
+"left_menu_section_parameters"="Paramètres ";
+"left_menu_item_new_post"="Nouvelle publication ";
+"left_menu_item_ready_to_post"="Ready to Post";
+"left_menu_item_media_gallery"="Media Gallery";
+"left_menu_item_analyze_post"="Publications ";
+"left_menu_item_analyze_page"="Page";
+"left_menu_item_about_us"="A propos d'Ubiq";
+"left_menu_item_logout"="Se déconnecter";
+
+//FORGOT_PASSWORD_SCREEN
+"forgot_password_email"="E-mail";
+"forgot_password_validate"="Valider";
+"forgot_password_return"="Retour";
+"forgot_password_error_message_email_invalid"="Cet e-mail est invalide";
+"forgot_password_error_title"="Erreur";
+"forgot_password_success_title"="Succès";
+
+//PUBLISH_SCREEN
+"publish_title_screen"="Publier";
+"publish_next_button"="Suivant";
+"publish_placeholder_post"="Quoi de neuf ?";
+"publish_send_now"="Envoyer maintenant";
+"publish_schedule"="Programmer";
+"publish_cancel_schedule"="Annuler";
+"publish_title_message_limited_image"="Image limitée";
+"publish_title_message_limited_video"="Vidéo limitée";
+"publish_ok"="Ok";
+"publish_message_limited_image"="Vous pouvez télécharger jusqu'à 20 photos et leur taille ne doit pas dépasser 50 Mo";
+"publish_message_limited_video_quantity"="Vous ne pouvez partager qu'une vidéo à la fois";
+"publish_message_limited_video_size"="Votre vidéo a dépassé la taille maximum de 50 Mo";
+"publish_title_schedule_time"="Définir l'heure de publication";
+"publish_schedule_time_ok"="Ok";
+"publish_schedule_time_cancel"="Annuler";
+"publish_facebook_limitation"="Sorry, Facebook doesn't allow the creation of 2 consecutive posts with the same content.";
+
+//CONVERSE
+"converse_title"="Converse";
+"converse_reviews"="Avis";
+"converse_comments"="Commentaires ";
+"converse_posts"="Publications";
+"converse_messenger"="Messenger ";
+"converse_notification_empty"="No notification";
+
+//CONVERSE_REVIEWS
+"converse_reviews_title"="Converse";
+
+//CONVERSE_COMMENT_POST
+"converse_comment_post_title"="Converse";
+
+//CONVERSE_HISTORY
+"converse_history_title"="Converse";
+"converse_history_write_a_response"="Ecrire une réponse ...";
+"converse_history_submit_button"="Soumettre";
+"converse_history_success_title"="Succès ";
+"converse_history_error_title"="Erreur";
+"converse_history_answer_success"="Your answer has been post successfully";
+
+//CONVERSE_MESSENGER
+"converse_messenger_title"="Converse";
+
+//MEDIA_GALLERY
+"media_gallery_title"="Media Gallery";
+"media_gallery_search"="Rechercher ";
+"media_gallery_empty"="Aucun média ";
+
+//MEDIA_GALLERY_PREVIEW
+"media_gallery_preview_title"="Media Gallery";
+"media_gallery_preview_bt_use"="Utiliser";
+"media_gallery_preview_bt_cancel"="Annuler";
+
+//ANALYSE
+"analyze_page_title"="Analyser la page ";
+"analyze_post_title"="Analyser les publications";
+"analyze_page_refine_start_date"="Date de début";
+"analyze_page_refine_end_date"="Date de fin";
+"analyze_page_refine_results_title"="Affiner les résultats";
+"analyze_submit_button"="Soumettre";
+"analyze_refine_button"="Affiner";
+"analyze_page_show_more_button"="Voir plus";
+"analyze_page_gender"="Civilité ";
+"analyze_page_poplular_city"="Villes les plus populaires";
+"analyze_page_gender_male"="Homme";
+"analyze_page_gender_women"="Femme";
+"analyze_page_fans"="Fans";
+"analyze_page_new_fans"="Nouveaux fans";
+"analyze_page_reach"="Portée";
+"analyze_page_engagement"="Engagement";
+"analyze_page_engagement_rate"="Taux d'engagement";
+"anlyze_post_date"="Date :";
+"anlyze_post_reach"="Portée :";
+"analyze_post_likes"="Likes :";
+"analyze_post_comments"="Commentaires :";
+"analyze_post_shares"="Partages : ";
+"analyze_post_refine_date"="Date";
+"analyze_post_refine_publications"="Publications";
+"analyze_post_refine_reach"="Portée";
+"analyze_post_refine_engagement"="Engagement";
+"analyze_post_refine_sort_by"="Trier par";
+"analyze_post_refine_start_date"="Date de début";
+"analyze_post_refine_end_date"="Date de fin";
+"analyze_post_empty"="No post";
+"analyze_filter_invalid_date_title"="Invalid date";
+"analyze_filter_invalid_date_message"="End date must be greater than start date";
+
+//READY_TO_POST
+"ready_to_post_popup_delete_content"="Êtes-vous sûr de vouloir supprimer ?";
+"ready_to_post_popup_delete_title"="Supprimer la publication";
+"ready_to_post_title"="Prêt à être publié ";
+"ready_to_post_delete"="Supprimer";
+"ready_to_post_empty_message"="Aucun message programmé";
+"ready_to_post_no_image"="No Image";
+
+//SIGN_OUT
+"sign_out_title"="êtes-vous sûr de vouloir vous déconnecter ? ";
+"sign_out_content"="Si vous vous déconnectez vous devrez entrer vos identifiants et votre mot de passe à nouveau";
+"sign_out_cancel_button"="Annuler";
+"sign_out_logout_button"="Se déconnecter";
+
+//HASHTAG
+"hashtag_title"="Sélectionner le #Hashtag";
+
+//ABOUT
+"about_title"="About us";
+"about_content"="Ubiq® est la 1re Plateforme SaaS Social-to-Store. Grâce à ses solutions innovantes, Ubiq® permet de maîtriser les initiatives locales de chaque point de vente sur les réseaux sociaux en cohérence avec la stratégie marketing de l’enseigne, tout en cultivant les spécificités de chaque zone de chalandise pour générer du trafic en point de vente.";

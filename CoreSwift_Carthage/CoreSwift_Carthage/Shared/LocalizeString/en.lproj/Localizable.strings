@@ -1,0 +1,165 @@
+//Generated IOS file for locale : en
+
+"language"="en";
+
+//APPLICATION_GLOBAL
+"app_name"="Ubiq";
+"app_version"="1.0";
+
+//COMMON
+"common_bt_cancel"="Cancel";
+"common_bt_ok"="OK";
+"common_bt_retry"="Retry";
+"common_google_plus_name"="Google plus";
+"common_facebook_name"="Facebook";
+"common_request_success_title"="Success";
+"common_request_error_title"="Error";
+"common_no_internet_connection_title"="Connection Error";
+"common_no_internet_connection"="No Internet connection";
+"common_request_api_fail"="Server error";
+"common_request_api_success"="Request success";
+"common_post_api_success"="Post successfully";
+"common_post_api_unsuccess"="Post unsuccessfully";
+"common_upload_media_unsuccess"="Upload media unsuccessfully";
+"common_upload_media_success"="Upload media successfully";
+"common_user_not_found"="User name not found";
+"common_user_already_requested"="User already requested";
+"common_error_message"="Network error. Please try again later";
+
+//LOGIN_SCREEN
+"login_email"="E-mail";
+"login_password"="Password";
+"login_validate"="Login";
+"login_forgot_password"="Forgot password?";
+"login_error_title"="Error";
+"login_error_message_email_invalid"="This email is invalid";
+"login_error_message_password_invalid"="Please input your password";
+
+//LEFT_MENU_SCREEN
+"left_menu_section_publish"="Publish";
+"left_menu_section_converse"="Converse";
+"left_menu_section_analyze"="Analyse";
+"left_menu_section_parameters"="Parameters";
+"left_menu_item_new_post"="New Post";
+"left_menu_item_ready_to_post"="Ready to Post";
+"left_menu_item_media_gallery"="Media Gallery";
+"left_menu_item_analyze_post"="Posts";
+"left_menu_item_analyze_page"="Page";
+"left_menu_item_about_us"="About Us";
+"left_menu_item_logout"="Logout";
+
+//FORGOT_PASSWORD_SCREEN
+"forgot_password_email"="E-mail";
+"forgot_password_validate"="Validate";
+"forgot_password_return"="Return";
+"forgot_password_error_message_email_invalid"="This email is invalid";
+"forgot_password_error_title"="Error";
+"forgot_password_success_title"="Success";
+
+//PUBLISH_SCREEN
+"publish_title_screen"="Publish";
+"publish_next_button"="Next";
+"publish_placeholder_post"="What's on your mind?";
+"publish_send_now"="Send now";
+"publish_schedule"="Schedule";
+"publish_cancel_schedule"="Cancel";
+"publish_title_message_limited_image"="Limited Image";
+"publish_title_message_limited_video"="Limited Video";
+"publish_ok"="OK";
+"publish_message_limited_image"="You can only upload maximum 20 photos and capacity less equal than 50 MB.";
+"publish_message_limited_video_quantity"="You can only share one video at a time.";
+"publish_message_limited_video_size"="Your video has exceed the maximun size of 50 MB";
+"publish_title_schedule_time"="Set schedule time";
+"publish_schedule_time_ok"="OK";
+"publish_schedule_time_cancel"="Cancel";
+"publish_facebook_limitation"="Sorry, Facebook doesn't allow the creation of 2 consecutive posts with the same content.";
+
+//CONVERSE
+"converse_title"="Converse";
+"converse_reviews"="Reviews";
+"converse_comments"="Comments";
+"converse_posts"="Posts";
+"converse_messenger"="Messenger";
+"converse_notification_empty"="No notification";
+
+//CONVERSE_REVIEWS
+"converse_reviews_title"="Converse";
+
+//CONVERSE_COMMENT_POST
+"converse_comment_post_title"="Converse";
+
+//CONVERSE_HISTORY
+"converse_history_title"="Converse";
+"converse_history_write_a_response"="Write a response ...";
+"converse_history_submit_button"="Submit";
+"converse_history_success_title"="Success";
+"converse_history_error_title"="Error";
+"converse_history_answer_success"="Your answer has been post successfully";
+
+//CONVERSE_MESSENGER
+"converse_messenger_title"="Converse";
+
+//MEDIA_GALLERY
+"media_gallery_title"="Media Gallery";
+"media_gallery_search"="Search";
+"media_gallery_empty"="No media";
+
+//MEDIA_GALLERY_PREVIEW
+"media_gallery_preview_title"="Media Gallery";
+"media_gallery_preview_bt_use"="Use";
+"media_gallery_preview_bt_cancel"="Cancel";
+
+//ANALYSE
+"analyze_page_title"="Analyze Page";
+"analyze_post_title"="Analyze Posts";
+"analyze_page_refine_start_date"="Start Date";
+"analyze_page_refine_end_date"="End Date";
+"analyze_page_refine_results_title"="Refine Results";
+"analyze_submit_button"="Submit";
+"analyze_refine_button"="Refine";
+"analyze_page_show_more_button"="Show more";
+"analyze_page_gender"="Gender Distributions";
+"analyze_page_poplular_city"="Popular cities";
+"analyze_page_gender_male"="Male";
+"analyze_page_gender_women"="Women";
+"analyze_page_fans"="Fans";
+"analyze_page_new_fans"="New fans";
+"analyze_page_reach"="Reach";
+"analyze_page_engagement"="Engagement";
+"analyze_page_engagement_rate"="Engagement Rate";
+"anlyze_post_date"="Date:";
+"anlyze_post_reach"="Reach:";
+"analyze_post_likes"="Likes:";
+"analyze_post_comments"="Comments:";
+"analyze_post_shares"="Shares:";
+"analyze_post_refine_date"="Date";
+"analyze_post_refine_publications"="Publications";
+"analyze_post_refine_reach"="Reach";
+"analyze_post_refine_engagement"="Engagement";
+"analyze_post_refine_sort_by"="Sort by";
+"analyze_post_refine_start_date"="Start date";
+"analyze_post_refine_end_date"="End date";
+"analyze_post_empty"="No post";
+"analyze_filter_invalid_date_title"="Invalid date";
+"analyze_filter_invalid_date_message"="End date must be greater than start date";
+
+//READY_TO_POST
+"ready_to_post_popup_delete_content"="Are you sure to delete?       ";
+"ready_to_post_popup_delete_title"="Delete post";
+"ready_to_post_title"="Ready to post";
+"ready_to_post_delete"="Delete";
+"ready_to_post_empty_message"="No Scheduled Messages";
+"ready_to_post_no_image"="No Image";
+
+//SIGN_OUT
+"sign_out_title"="Are you sure to logout?";
+"sign_out_content"="If you log out you need to fill in your login and password again for connect again";
+"sign_out_cancel_button"="Cancel";
+"sign_out_logout_button"="Logout";
+
+//HASHTAG
+"hashtag_title"="Select #hashtag";
+
+//ABOUT
+"about_title"="About us";
+"about_content"="Ubiq® is the first Social-to-Store SaaS platform. With its innovative solutions, Ubiq® manages local initiatives for each sales outlet on social networks consistent with the chain’s marketing strategy while cultivating specific advantages of each marketing area to generate sales outlet traffic.";

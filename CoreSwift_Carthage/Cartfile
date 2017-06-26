@@ -3,3 +3,8 @@ github "Moya/Moya" ~> 8.0.0
 
 # Argo framework,required using version 4.x for Swift 3.0
 github "thoughtbot/Argo" ~> 4.0.0
+
+# Curry framework,required using version 3.x for Swift 3.0
+github "thoughtbot/Curry" ~> 3.0.0
+
+github "ashleymills/Reachability.swift" ~> 2.3
