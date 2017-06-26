@@ -1,0 +1,6 @@
+// How to install Carthage
+1. Install Carthage.pkg 
+2. Check Carthage version by using "carthage version"
+3. Run "carthage update --platform iOS" for install version iOS only
+4. Copy library to linked library
+5. Copy script 
