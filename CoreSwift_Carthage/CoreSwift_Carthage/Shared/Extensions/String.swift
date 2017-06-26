@@ -34,16 +34,6 @@ extension String {
         return nil
     }
     
-    func toAny() -> AnyObject? {
-        if let data = self.data(using: .utf8) {
-            do {
-                return try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? AnyObject
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-        return nil
-    }
     
     public func urlPathEncoded() -> String {
         return self.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!

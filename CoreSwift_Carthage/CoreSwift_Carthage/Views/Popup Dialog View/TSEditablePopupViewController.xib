@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSEditablePopupViewController" customModule="UbiqApp_Preprod" customModuleProvider="target">
+            <connections>
+                <outlet property="messageTextView" destination="PRn-SI-chA" id="ytl-ok-53x"/>
+                <outlet property="titleLabel" destination="xKk-VC-WDT" id="v4v-Vh-cvd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="407" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhh-WS-U27">
+                    <rect key="frame" x="0.0" y="20" width="407" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARE YOU SURE TO LOGOUT ?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKk-VC-WDT">
+                            <rect key="frame" x="85" y="10" width="237" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="xKk-VC-WDT" firstAttribute="centerX" secondItem="fhh-WS-U27" secondAttribute="centerX" id="7jI-GP-eGU"/>
+                        <constraint firstItem="xKk-VC-WDT" firstAttribute="centerY" secondItem="fhh-WS-U27" secondAttribute="centerY" id="mOU-dj-7uT"/>
+                        <constraint firstAttribute="height" constant="40" id="vaw-3c-0cj"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" text="If you log out you need to fill in your login and password again for connect again" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PRn-SI-chA" customClass="TextViewPlaceholder" customModule="UbiqApp_Preprod" customModuleProvider="target">
+                    <rect key="frame" x="15" y="85" width="377" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="7Ku-D0-gDi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PRn-SI-chA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="19D-cv-Vyd"/>
+                <constraint firstAttribute="bottom" secondItem="PRn-SI-chA" secondAttribute="bottom" constant="25" id="Awc-Sy-aZu"/>
+                <constraint firstItem="fhh-WS-U27" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="IGJ-zw-Fca"/>
+                <constraint firstAttribute="trailing" secondItem="PRn-SI-chA" secondAttribute="trailing" constant="15" id="LNx-EV-Z6s"/>
+                <constraint firstItem="fhh-WS-U27" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Pr1-G1-XTf"/>
+                <constraint firstItem="PRn-SI-chA" firstAttribute="top" secondItem="fhh-WS-U27" secondAttribute="bottom" constant="25" id="gbg-Xx-DNI"/>
+                <constraint firstAttribute="trailing" secondItem="fhh-WS-U27" secondAttribute="trailing" id="tpV-uJ-fuo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-43.5" y="-415"/>
+        </view>
+    </objects>
+</document>
