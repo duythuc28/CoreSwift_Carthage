@@ -1,0 +1,5 @@
+# Moya framework, currenly using version 8.0 for Swift 3.0
+github "Moya/Moya" ~> 8.0.0
+
+# Argo framework,required using version 4.x for Swift 3.0
+github "thoughtbot/Argo" ~> 4.0.0
