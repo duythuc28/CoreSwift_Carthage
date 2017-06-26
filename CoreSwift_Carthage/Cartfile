@@ -7,4 +7,4 @@ github "thoughtbot/Argo" ~> 4.0.0
 # Curry framework,required using version 3.x for Swift 3.0
 github "thoughtbot/Curry" ~> 3.0.0
 
-github "ashleymills/Reachability.swift" ~> 2.3
+github "ashleymills/Reachability.swift" ~> 3.0

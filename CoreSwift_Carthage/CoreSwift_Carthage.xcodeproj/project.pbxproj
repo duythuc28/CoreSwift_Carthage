@@ -83,6 +83,7 @@
 		6A27145D1F01150100D8E441 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A2714151F01150100D8E441 /* Info.plist */; };
 		6A2714611F01156500D8E441 /* BLMultiColorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2714601F01156500D8E441 /* BLMultiColorLoader.m */; };
 		6A2714631F0119BE00D8E441 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2714621F0119BE00D8E441 /* Curry.framework */; };
+		6A2714651F011BBB00D8E441 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2714641F011BBB00D8E441 /* Reachability.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +189,7 @@
 		6A27145F1F01156500D8E441 /* BLMultiColorLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultiColorLoader.h; sourceTree = "<group>"; };
 		6A2714601F01156500D8E441 /* BLMultiColorLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultiColorLoader.m; sourceTree = "<group>"; };
 		6A2714621F0119BE00D8E441 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
+		6A2714641F011BBB00D8E441 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			files = (
 				6A2713B11F01094B00D8E441 /* Argo.framework in Frameworks */,
 				6A2713B21F01094B00D8E441 /* Moya.framework in Frameworks */,
+				6A2714651F011BBB00D8E441 /* Reachability.framework in Frameworks */,
 				6A2714631F0119BE00D8E441 /* Curry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +277,7 @@
 		6A2713AE1F01094B00D8E441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A2714641F011BBB00D8E441 /* Reachability.framework */,
 				6A2714621F0119BE00D8E441 /* Curry.framework */,
 				6A2713AF1F01094B00D8E441 /* Argo.framework */,
 				6A2713B01F01094B00D8E441 /* Moya.framework */,
@@ -671,6 +675,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Curry.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
 			);
 			name = "Run Script";
 			outputPaths = (
