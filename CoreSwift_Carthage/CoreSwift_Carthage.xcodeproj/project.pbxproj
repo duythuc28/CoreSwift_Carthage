@@ -14,6 +14,8 @@
 		6A0AB03E1EFFC48C0020271F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AB03C1EFFC48C0020271F /* LaunchScreen.storyboard */; };
 		6A0AB0491EFFC48C0020271F /* CoreSwift_CarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AB0481EFFC48C0020271F /* CoreSwift_CarthageTests.swift */; };
 		6A0AB0541EFFC48C0020271F /* CoreSwift_CarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AB0531EFFC48C0020271F /* CoreSwift_CarthageUITests.swift */; };
+		6A2713B11F01094B00D8E441 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2713AF1F01094B00D8E441 /* Argo.framework */; };
+		6A2713B21F01094B00D8E441 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2713B01F01094B00D8E441 /* Moya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6A0AB04F1EFFC48C0020271F /* CoreSwift_CarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSwift_CarthageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0AB0531EFFC48C0020271F /* CoreSwift_CarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSwift_CarthageUITests.swift; sourceTree = "<group>"; };
 		6A0AB0551EFFC48C0020271F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2713AF1F01094B00D8E441 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		6A2713B01F01094B00D8E441 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2713B11F01094B00D8E441 /* Argo.framework in Frameworks */,
+				6A2713B21F01094B00D8E441 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				6A0AB0471EFFC48C0020271F /* CoreSwift_CarthageTests */,
 				6A0AB0521EFFC48C0020271F /* CoreSwift_CarthageUITests */,
 				6A0AB0311EFFC48C0020271F /* Products */,
+				6A2713AE1F01094B00D8E441 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,15 @@
 			path = CoreSwift_CarthageUITests;
 			sourceTree = "<group>";
 		};
+		6A2713AE1F01094B00D8E441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A2713AF1F01094B00D8E441 /* Argo.framework */,
+				6A2713B01F01094B00D8E441 /* Moya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +151,7 @@
 				6A0AB02C1EFFC48C0020271F /* Sources */,
 				6A0AB02D1EFFC48C0020271F /* Frameworks */,
 				6A0AB02E1EFFC48C0020271F /* Resources */,
+				6A2713B31F01098100D8E441 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -256,6 +273,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A2713B31F01098100D8E441 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A0AB02C1EFFC48C0020271F /* Sources */ = {
@@ -418,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XC6P3RXJV8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CoreSwift_Carthage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +472,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XC6P3RXJV8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CoreSwift_Carthage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,6 +562,7 @@
 				6A0AB05A1EFFC48C0020271F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0AB05B1EFFC48C0020271F /* Build configuration list for PBXNativeTarget "CoreSwift_CarthageTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +571,7 @@
 				6A0AB05D1EFFC48C0020271F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0AB05E1EFFC48C0020271F /* Build configuration list for PBXNativeTarget "CoreSwift_CarthageUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +580,7 @@
 				6A0AB0601EFFC48C0020271F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
