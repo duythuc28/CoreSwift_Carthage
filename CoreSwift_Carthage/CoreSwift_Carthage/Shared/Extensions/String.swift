@@ -38,6 +38,14 @@ extension String {
     public func urlPathEncoded() -> String {
         return self.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!
     }
+    
+    var urlEscaped: String {
+        return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
+    }
+    
+    var utf8Encoded: Data {
+        return self.data(using: .utf8)!
+    }
 
 }
 

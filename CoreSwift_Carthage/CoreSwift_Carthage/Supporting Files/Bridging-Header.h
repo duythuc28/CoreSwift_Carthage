@@ -10,5 +10,5 @@
 #define UB_Bridging_Header_h
 
 #import "FXBlurView.h"
-
+#import "BLMultiColorLoader.h"
 #endif /* UB_Bridging_Header_h */
